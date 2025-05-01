@@ -12,6 +12,7 @@ var expect = function(val) {
   }
 };
 
+// '===' means both value and data type must be same to return true
 /**
 * expect(5).toBe(5); // true
 * expect(5).notToBe(5); // throws "Equal"
